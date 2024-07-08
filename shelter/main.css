@@ -26,8 +26,8 @@ ul, li, a, h1, h2, h3, h4, h5, h6, p {
 
 /*header*/
 .container_header {
-    background-image: url("main/assests/images/start-screen-gradient-background.png"),
-url("main/assests/images/start-screen-background.png");
+    background-image: url("../main/assests/images/start-screen-gradient-background.png"),
+url("../main/assests/images/start-screen-background.png");
     background-position: center center;
     background-size: cover;
 }
@@ -358,8 +358,8 @@ url("main/assests/images/start-screen-background.png");
 
 /*footer*/
 .container_footer{
-    background-image: url("main/assests/images/start-screen-gradient-background.png"),
-    url("main/assests/images/start-screen-background.png");
+    background-image: url("../main/assests/images/start-screen-gradient-background.png"),
+    url("../main/assests/images/start-screen-background.png");
     background-position: center center;
     background-size: cover;
 
