@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+ul, li, a, h1, h2, h3, h4, h5, h6, p {
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+.interactive{
+    border-bottom: 3px solid #F1CDB3;
+}
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #545454;
+    height: 80px;
+}
+
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header_logo {
+    display: grid;
+    gap: 10px;
+}
+
+.header_title {
+    font-size: 32px;
+
+    font-family: "Georgia", serif;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 4px;
+}
+
+.header_bot_title {
+    font-size: 13px;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    color: #545454;
+    letter-spacing: 2px;
+    padding-left: 2px;
+    align-items: center;
+}
+
+.navbar {
+    display: grid;
+    align-items: center;
+}
+
+.navbar_inner {
+    font-family: "Arial", sans-serif;
+    color: #545454;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: right;
+    gap: 35px;
+    height: 20px;
+
+}
+
+.navbar_inner li:hover {
+    border-bottom: 3px solid #F1CDB3;
+}
+.main_title{
+    display: flex;
+    justify-content: center;
+}
+.main_title h2{
+    text-align: center;
+    font-family: "Georgia", serif;
+    font-size: 35px;
+    line-height: 45px;
+    color: #545454;
+    padding: 80px 0 45px;
+    font-weight: 400;
+    max-width: 400px;
+    justify-content: center;
+}
+
+/****************/
+
+
+.slider_item{
+    max-width: 1200px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.arrow_left{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    border: 2px solid #F1CDB3;
+    border-radius: 120px;
+    padding: 15px 15px 15px 15px;
+    cursor: pointer;
+}
+.arrow_right{
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #F1CDB3;
+    border-radius: 120px;
+    padding: 15px 15px 15px 15px;
+    cursor: pointer;
+}
+.slider_title{
+    font-family: "Georgia", serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 20px;
+}
+.slider_items{
+    display: grid;
+    gap: 30px;
+    background: #ffffff;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+.slider_items:hover{
+    box-shadow: 0 0 50px #efe2dc;
+    transition: 0.3s;
+}
+.slider_items button{
+    font-family: "Georgia", serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    cursor: pointer;
+    background-color: inherit;
+    margin: 0 auto;
+    width: 187px;
+    height: 52px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    padding: 15px 45px 15px 45px;
+}
+.slider_items button:hover{
+    background: #F1CDB3;
+    transition: 0.3s;
+}
+.container_main{
+    background-color:#F6F6F6 ;
+}
+
+/*pagination*/
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 45px 0 100px;
+    gap: 20px;
+}
+
+.pagination li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 40px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #F1CDB3;
+    border-radius:100px ;
+    cursor: pointer;
+}
+
+
+.active:hover{
+    background: #F1CDB3;
+}
+
+/*footer*/
+
+.container_footer{
+    background-image:url("assetstart-screen-gradient-background.png"),
+url("assetstart-screen-background.png");
+    background-position: center center;
+    background-size: cover;
+
+}
+.footer{
+    display: flex;
+    gap: 160px;
+    align-items: center;
+    padding-top: 40px;
+}
+.footer img{
+}
+.header_first{
+    display: grid;
+    gap: 40px;
+    max-width: 278px;
+    max-height: 234px;
+    align-items: center;
+}
+.header_second{
+    display: grid;
+    gap: 34px;
+    max-width: 302px;
+    max-height: 234px;
+}
+.footer_title_first{
+    font-family: "Georgia", serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 2px;
+    color: white;
+}
+.email{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Georgia", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F1CDB3;
+}
