@@ -193,8 +193,7 @@ ul, li, a, h1, h2, h3, h4, h5, h6, p {
 /*footer*/
 
 .container_footer{
-    background-image:url("assetstart-screen-gradient-background.png"),
-url("assetstart-screen-background.png");
+    background-image:url("./assests/images/start-screen-gradient-background.png"),url("./assests/images/start-screen-background.png");
     background-position: center center;
     background-size: cover;
 
